@@ -9,7 +9,7 @@ This is a laravel extension of Portable PHP password hashing framework by Openwa
 - Include in your file 
 
 ```shell
-use Jun\Phpass\PhpassHelper;
+use Juntals01\Phpass\PhpassHelper;
 then
 composer require juntals01/phpass
 ```

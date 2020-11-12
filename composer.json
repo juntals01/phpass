@@ -24,7 +24,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Juntals01\\Phpass\\PhpassServiceProvider"
+                "Juntals01\\Phpass\\Src\\PhpassServiceProvider"
             ]
         }
     }
