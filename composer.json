@@ -1,5 +1,5 @@
 {
-    "name": "juntals01/phpass",
+    "name": "jun/phpass",
     "description": "Laravel package for phpass",
     "type": "library",
     "keywords": ["laravel","phpass"],
@@ -14,6 +14,7 @@
 
         }
     ],
+    "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "psr-4": {

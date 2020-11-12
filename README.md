@@ -6,9 +6,12 @@ This is a laravel extension of Portable PHP password hashing framework by Openwa
 
 ### How to use
 
-- on development
+- Include in your file 
+
 ```shell
-composer require jun/phpass (not yet working)
+use Jun\Phpass\PhpassHelper;
+then
+composer require jun/phpass
 ```
 
 #### passwordHash
