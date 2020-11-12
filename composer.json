@@ -18,13 +18,14 @@
     "require": {},
     "autoload": {
         "psr-4": {
+            "App\\": "app/",
             "Juntals01\\Phpass\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Juntals01\\Phpass\\Src\\PhpassServiceProvider"
+                "Juntals01\\Phpass\\PhpassServiceProvider"
             ]
         }
     }
