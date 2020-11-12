@@ -11,7 +11,7 @@ This is a laravel extension of Portable PHP password hashing framework by Openwa
 ```shell
 use Jun\Phpass\PhpassHelper;
 then
-composer require jun/phpass
+composer require juntals01/phpass
 ```
 
 #### passwordHash
