@@ -17,12 +17,14 @@
     "minimum-stability": "dev",
     "require": {},
     "autoload": {
-        "psr-4": { "Juntals\\Phpass\\": "src/" }
+        "psr-4": {
+            "Juntals01\\Phpass\\": "src/"
+        }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Juntals\\Phpass\\PhpassServiceProvider"
+                "Juntals01\\Phpass\\PhpassServiceProvider"
             ]
         }
     }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Jun\Phpass;
+namespace Juntals01\Phpass;
 
 #
 # Portable PHP password hashing framework.
