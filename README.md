@@ -9,15 +9,22 @@ This is a laravel extension of Portable PHP password hashing framework by Openwa
 - Include in your file 
 
 ```shell
-use Juntals01\Phpass\PhpassHelper;
-then
 composer require juntals01/phpass
 ```
 
+then, in your php file include by;
+
+```php
+use Juntals01\Phpass\PhpassHelper;
+```
+
+### function
+
 #### passwordHash
-returns instance of phpass library with parameter
+returns instance of phpass openwall library with parameter Iteration, portablehashes.
+
 - Iteration count: 8
-- prtablehashes: true
+- portablehashes: true
 
 ```php
 PhpassHelper::passwordHash()
@@ -25,7 +32,8 @@ PhpassHelper::passwordHash()
 
 #### passwordVerify
 
-returns true or false
+returns true if plaintext is the hash equivalent
+or false if not
 
 ```php
 PhpassHelper::passwordVerify($plainText, $hash)
