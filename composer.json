@@ -2,14 +2,18 @@
     "name": "jun/phpass",
     "description": "Laravel package for phpass",
     "type": "library",
+    "keywords": ["laravel","phpass"],
+    "homepage": "https://github.com/juntals01/phpass",
     "license": "MIT",
     "authors": [
         {
             "name": "norberto libago",
-            "email": "juntals01@gmail.com"
+            "email": "juntals01@gmail.com",
+            "homepage": "https://github.com/juntals01",
+            "role": "Developer"
+
         }
     ],
-    "minimum-stability": "stable",
     "require": {},
     "autoload": {
         "psr-4": {
