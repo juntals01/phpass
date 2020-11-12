@@ -14,17 +14,17 @@
 
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "require": {},
     "autoload": {
         "psr-4": {
-            "Jun\\Phpass\\": "src/"
+            "Juntals01\\Phpass\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Jun\\Phpass\\PhpassServiceProvider"
+                "Juntals01\\Phpass\\PhpassServiceProvider"
             ]
         }
     }
