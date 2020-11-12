@@ -17,14 +17,7 @@
     "minimum-stability": "dev",
     "require": {},
     "autoload": {
-        "psr-4": {
-            "Juntals01\\Phpass\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Juntals01\\Phpass\\": "src/"
-        }
+        "psr-4": { "Juntals01\\Phpass\\": "src/" }
     },
     "extra": {
         "laravel": {
